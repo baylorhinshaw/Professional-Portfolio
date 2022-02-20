@@ -11,6 +11,7 @@ import {
 function App() {
   return (
     <div>App</div>
+    // This only needs to include your Router, Routes, Route, etc.
   );
 }
 
