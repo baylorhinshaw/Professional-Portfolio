@@ -147,8 +147,9 @@ a {
 
 /* Footer */
 .Footer {
+    padding-left: 6%;
+    padding-right: 6%;
     border-top: 3px solid #C2719F;
-    width: 50%;
     color: white;
 }
 
@@ -156,4 +157,11 @@ a {
     width: 20px;
     height: 20px;
     padding: 5px;
+    transition-duration: 0.3s;
 }
+
+.FooterIcon:hover {
+    fill: white;
+    transform:scale(.8);
+}
+
