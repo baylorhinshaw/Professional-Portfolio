@@ -12,11 +12,11 @@ import Menu from './components/common/Menu';
 
 function App() {
   return (
-    <div>
+    <body>
       <Home/>
       <Project1/>
       <Menu/>
-    </div>
+    </body>
     // This only needs to include your Router, Routes, Route, etc.
   );
 }
