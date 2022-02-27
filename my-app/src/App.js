@@ -13,7 +13,6 @@ import Menu from './components/common/Menu';
 function App() {
   return (
     <body>
-      <Home/>
       <Project1/>
       <Menu/>
     </body>

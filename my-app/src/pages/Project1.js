@@ -10,12 +10,18 @@ const Project1 = () => {
     return(
         <div>
             <div className="Project1-Header">
-                <h2>Baylor Hinshaw</h2>
-                <img className='HeaderIcon' src={Linkedin}></img>
-                <img className='HeaderIcon' src={Github}></img>
-                <img className='HeaderIcon' src={Email}></img>
-                <a href='#'><img className='HeaderIcon' src={Menu}></img></a>
-                <h1>Project1</h1>
+                <div className='project-header-content'>
+                    <div className='Row'>
+                        <h2>Baylor Hinshaw</h2>
+                        <a href='https://www.linkedin.com/in/baylorhinshaw/'><img className='HeaderIcon' src={Linkedin}></img></a>
+                        <a href='https://github.com/baylorhinshaw'><img className='HeaderIcon' src={Github}></img></a>
+                        <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' src={Email}></img></a>
+                        <a href='#'><img className='menu-btn' src={Menu}></img></a>
+                    </div>
+                    <div>
+                        <h1>Project1</h1>
+                    </div>
+                </div>
             </div>
             <div className='Project1-Content'>
                 <h2>Heading 2 - Project Title</h2>
