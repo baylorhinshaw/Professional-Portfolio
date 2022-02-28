@@ -1,6 +1,5 @@
 import '../Main.css';
 import React from "react";
-import { Link } from 'react-router-dom';
 
 function MyWork() {
     return (

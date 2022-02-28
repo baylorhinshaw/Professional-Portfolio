@@ -7,26 +7,24 @@ import Close from '../../images/close.svg';
 
 function Menu() {
     return (
-        <div id='Menu'>
+        <div className='Menu-Background'>
             <div className='MenuRow'>
-                <div className='MenuColumn1'>
-                    <h4>Baylor Hinshaw</h4>
+                <div className='column-3'>
+                    <h3>Baylor Hinshaw</h3>
                 </div>
-                <div className='MenuColumn2'>
-                    <img className='HeaderIcon' src={Linkedin}></img>
-                    <img className='HeaderIcon' src={Github}></img>
-                    <img className='HeaderIcon' src={Email}></img>
-                    <a href='#'><img className='HeaderIcon' src={Close}></img></a>
-                </div>
-            </div>
-            <div className='MenuRow'>
-                <div>
+                <div className='column-3 directory'>
                     <a href='#'>Home</a>
-                    <ul id='nav'>
-                        <li><a href='#'>-Project 1</a></li>
-                        <li><a href='#'>-Project 2</a></li>
-                    </ul>
-                    <a href='#'>baylorhinshaw21@gmail.com</a>
+                    <a href='#'>- Project One</a>
+                    <a href='#'>- Project Two</a>
+                    <a href='mailto:baylorhinshaw21@gmail.com'>baylorhinshaw21@gmail.com</a>
+                </div>
+                <div className='column-3'>
+                    <div className='Row'>
+                        <img className='HeaderIcon' src={Linkedin}></img>
+                        <img className='HeaderIcon' src={Github}></img>
+                        <img className='HeaderIcon' src={Email}></img>
+                        <a href='#'><img className='HeaderIcon menu-btn' src={Close}></img></a>
+                    </div>
                 </div>
             </div>
         </div>

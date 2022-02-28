@@ -9,7 +9,7 @@ function Jumbotron() {
     return (
         <div className='Jumbotron-Background'>
             <div className='Jumbotron-Content'>
-                <div className='Row'>
+                <div className='Jumbotron-Row'>
                     <a href='https://www.linkedin.com/in/baylorhinshaw/'><img className='HeaderIcon' src={Linkedin}></img></a>
                     <a href='https://github.com/baylorhinshaw'><img className='HeaderIcon' src={Github}></img></a>
                     <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' src={Email}></img></a>

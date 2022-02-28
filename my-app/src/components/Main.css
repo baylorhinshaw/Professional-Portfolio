@@ -24,10 +24,21 @@ a {
     transition-duration: 0.3s;
 }
 
+.HeaderIcon {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+.HeaderIcon:hover {
+    transform:scale(.8);
+}
+
 .Row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
     max-width: 1140px;
 }
@@ -35,6 +46,17 @@ a {
 .Row img {
     display: inline-block;
     margin: 10px;
+}
+
+.separator {
+    height: 5px;
+    min-height: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1140px;
+    width: 100%;
+    background-color: #B25D5C;
+    border-radius: 0px 10px 10px 0px;
 }
 
 /* Jumbotron */
@@ -65,15 +87,12 @@ a {
     padding-bottom: 40px;
 }
 
-.HeaderIcon {
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    transition-duration: 0.3s;
-}
-
-.HeaderIcon:hover {
-    transform:scale(.8);
+.Jumbotron-Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
 }
 
 .Jumbotron-Text {
@@ -86,6 +105,13 @@ a {
 }
 
 /* MyWork */
+.MyWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
 #project1 {
     background: url(https://images.unsplash.com/photo-1541845157-a6d2d100c931?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80);
     background-repeat: no-repeat;
@@ -100,26 +126,10 @@ a {
     background-position: center center;
 }
 
-.separator {
-    height: 5px;
-    min-height: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    max-width: 1140px;
-    width: 100%;
-    background-color: #B25D5C;
-    border-radius: 0px 10px 10px 0px;
-}
-
 .project {
     height: 300px;
     border-radius: 0px 10px 10px 0px;
     opacity: 1;
-}
-
-.project-container div {
-    align-self: flex-end;
-    padding: 20px;
 }
 
 .project-container {
@@ -131,6 +141,11 @@ a {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .75) 100%);
 }
 
+.project-container div {
+    align-self: flex-end;
+    padding: 20px;
+}
+
 .project div:hover {
     opacity: 1;
 }
@@ -140,23 +155,11 @@ a {
     text-decoration: none;
 }
 
-.MyWork {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-}
-
-.imageexample {
-    width: 1140px;
-    height: 300px;
-}
-
 /* Project Jumbotron*/
 .Project-Jumbotron {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 200px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 150%), url(../images/ben-dutton-JkyMs0Shfn0-unsplash.jpg);
     opacity: 1;
@@ -166,6 +169,14 @@ a {
     background-color: #EE9E9B;
     border-bottom: 8px solid #EE9E9B;
     color: white;
+}
+
+.Project-Jumbotron-Content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1140px;
 }
 
 .project-title {
@@ -179,8 +190,24 @@ a {
     transition-duration: 0.3s;
 }
 
-#Menu {
-    background-color: #B25D5C;
+/* Project Content */
+.Project-Content {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    font: normal normal normal 18px/32px Roboto;
+    color: white;
+}
+
+.Project-Content-Container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 /* Project Grid Css */
@@ -221,8 +248,31 @@ a {
 	grid-row: span 2;
 }
 
-/* Footer */
+/* Menu */
+.Menu-Background {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1280px;
+    opacity: 0.9;
+    background-color: #B25D5C;
+}
+.MenuRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
 
+.directory {
+    font: normal normal normal 18px/32px Roboto;
+}
+
+/* Footer */
 .Footer {
     width: 100%;
     max-width: 1140px;
