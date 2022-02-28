@@ -9,20 +9,6 @@ import Footer from '../components/common/Footer';
 const Project1 = () => {
     return(
         <div>
-            <div className="Project1-Header">
-                <div className='project-header-content'>
-                    <div className='Row'>
-                        <h2>Baylor Hinshaw</h2>
-                        <a href='https://www.linkedin.com/in/baylorhinshaw/'><img className='HeaderIcon' src={Linkedin}></img></a>
-                        <a href='https://github.com/baylorhinshaw'><img className='HeaderIcon' src={Github}></img></a>
-                        <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' src={Email}></img></a>
-                        <a href='#'><img className='menu-btn' src={Menu}></img></a>
-                    </div>
-                    <div>
-                        <h1>Project1</h1>
-                    </div>
-                </div>
-            </div>
             <div className='Project1-Content'>
                 <h2>Heading 2 - Project Title</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas commodo placerat. Nulla dui sem, bibendum quis arcu ac, consectetur aliquam nulla. Quisque ut congue urna. Curabitur viverra quis magna id congue. Nulla interdum euismod est in interdum. Phasellus ac dolor ornare, laoreet turpis eget, viverra odio. Duis lacinia iaculis ipsum vitae mollis. Suspendisse eget ornare risus. Nunc vitae felis id libero mattis lacinia ut eu magna. Donec et sapien a dui vestibulum cursus. Donec ullamcorper lacus nisl, sit amet malesuada nunc facilisis nec. Nulla ullamcorper, lectus nec eleifend venenatis, dui risus placerat dui, nec feugiat ante odio eu tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque imperdiet laoreet leo et viverra. Nulla nec pharetra nisi, at venenatis sem.</p>

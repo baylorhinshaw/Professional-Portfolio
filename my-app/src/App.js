@@ -9,12 +9,12 @@ import {
 import Home from './pages/Home';
 import Project1 from './pages/Project1';
 import Menu from './components/common/Menu';
+import ProjectJumbotron from './components/project/ProjectJumbotron';
 
 function App() {
   return (
     <body>
-      <Project1/>
-      <Menu/>
+      <ProjectJumbotron/>
     </body>
     // This only needs to include your Router, Routes, Route, etc.
   );

@@ -152,8 +152,10 @@ a {
     height: 300px;
 }
 
-/* Project1 Page*/
-.Project1-Header {
+/* Project Jumbotron*/
+.Project-Jumbotron {
+    display: flex;
+    justify-content: center;
     width: 100vw;
     height: 200px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 150%), url(../images/ben-dutton-JkyMs0Shfn0-unsplash.jpg);
@@ -166,19 +168,8 @@ a {
     color: white;
 }
 
-.Project1-Header h1 {
-    text-align: center;
-}
-
-.project-header-content {
-    display: flex;
+.project-title {
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    max-width: 1140px;
-    padding-left: 6%;
-    padding-right: 6%;
 }
 
 .menu-btn {
@@ -186,11 +177,6 @@ a {
     height: 30px;
     padding: 5px;
     transition-duration: 0.3s;
-}
-
-.Project1-Content {
-    border-bottom: 3px solid #B25D5C;
-    color: white;
 }
 
 #Menu {
