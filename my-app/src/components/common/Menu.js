@@ -21,7 +21,7 @@ function Menu() {
                     </div>
                 </div>
             </div>
-            <div className='Row'>
+            <div className='menu-row'>
                 <div className='directory'>
                     <a href='#'><strong>Home</strong></a>
                     <ul>
@@ -32,7 +32,6 @@ function Menu() {
                             <a href='#'>Project Two</a>
                         </li>
                     </ul>
-
                     <a className='directory-email' href='mailto:baylorhinshaw21@gmail.com'>baylorhinshaw21@gmail.com</a>
                 </div>
             </div>
