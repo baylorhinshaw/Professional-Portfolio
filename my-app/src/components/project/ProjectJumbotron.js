@@ -16,7 +16,7 @@ function ProjectJumbotron() {
                     <h1><span style={{ fontWeight: 400 }}>Project</span> One</h1>
                 </div>                
                 <div className='column-3'>
-                    <div className='Row'>
+                    <div className='project-jumbotron-row'>
                         <a href='https://www.linkedin.com/in/baylorhinshaw/'><img className='HeaderIcon' src={Linkedin}></img></a>
                         <a href='https://github.com/baylorhinshaw'><img className='HeaderIcon' src={Github}></img></a>
                         <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' src={Email}></img></a>

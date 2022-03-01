@@ -13,9 +13,9 @@ import Menu from './components/common/Menu';
 function App() {
   return (
     <body>
+      <Menu/>
       <Home/>
       <Project1/>
-      <Menu/>
     </body>
     // This only needs to include your Router, Routes, Route, etc.
   );
