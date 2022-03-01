@@ -172,6 +172,10 @@ a {
     padding-right: 6%;
 }
 
+.jumbo-hover h2:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 520px) {
     .Project-Jumbotron-Content {
         flex-direction: column;

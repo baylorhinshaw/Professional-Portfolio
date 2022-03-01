@@ -1,5 +1,6 @@
 import '../Main.css';
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function MyWork() {
     return (
@@ -7,7 +8,7 @@ function MyWork() {
             <div className='Row' style={{ justifyContent: 'left' }}>
                 <h2>My Work</h2>
             </div>
-            <a href='#'>
+            <Link to='/project1'>
                 <div id='project1' className='project'> 
                     <div className='project-container'>
                         <div>
@@ -16,9 +17,9 @@ function MyWork() {
                         </div>
                     </div>
                 </div>
-            </a>
+            </Link>
             <div className='separator'></div>
-            <a href='#'>
+            <Link to='project2'>
                 <div id='project2' className='project'>
                     <div className='project-container'>
                         <div>
@@ -27,7 +28,7 @@ function MyWork() {
                         </div>
                     </div>
                 </div> 
-            </a>
+            </Link>
         </div>
     );
 }
