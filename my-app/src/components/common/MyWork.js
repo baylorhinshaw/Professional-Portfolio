@@ -12,8 +12,8 @@ function MyWork() {
                 <div id='project1' className='project'> 
                     <div className='project-container'>
                         <div>
-                            <h3>Project 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas commodo placerat. Nulla dui sem, bibendum quis arcu ac, consectetur aliquam nulla</p>
+                            <h3>Ani-Time</h3>
+                            <p>Ani-Time where you can keep up with anime anytime. As someone who enjoys watching anime I wanted to be able to see the diffrent shows coming out for the season and be able to save it to my list.</p>
                         </div>
                     </div>
                 </div>
@@ -23,8 +23,8 @@ function MyWork() {
                 <div id='project2' className='project'>
                     <div className='project-container'>
                         <div>
-                            <h3>Project 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas commodo placerat. Nulla dui sem, bibendum quis arcu ac, consectetur aliquam nulla</p>
+                            <h3>Just Chatting</h3>
+                            <p>Just Chatting is an backend application that creates a social media API, where users can create, edit and delete, users, friends, thoughts, and reactions. Will soon be adding client side to the application in the near future.</p>
                         </div>
                     </div>
                 </div> 
