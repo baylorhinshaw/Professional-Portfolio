@@ -105,14 +105,14 @@ a {
 }
 
 #project1 {
-    background: url(https://images.unsplash.com/photo-1541845157-a6d2d100c931?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80);
+    background: url(../images/anitimehome.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 #project2 {
-    background: url(https://images.unsplash.com/photo-1541845157-a6d2d100c931?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80);
+    background: url(../images/justchatting.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -130,7 +130,7 @@ a {
     transition-duration: 0.3s;
     height: 100%;
     max-width: 1140px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .75) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .project-container div {

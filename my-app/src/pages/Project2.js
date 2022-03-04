@@ -3,17 +3,20 @@ import React from "react";
 import ProjectJumbotron from '../components/project/ProjectJumbotron';
 import ProjectContent from '../components/project/ProjectContent';
 import GridWrapper from '../components/project/GridWrapper';
+import JustChatting from '../images/justchatting.PNG';
+import JustChattingLeft from '../images/justchattingleft.PNG';
+import JustChattingRight from '../images/justchattingright.PNG';
 import Footer from '../components/common/Footer';
 
 const Project2 = () => {
 
-    const imageLink = 'https://images.unsplash.com/photo-1587588354456-ae376af71a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80';
+    const description = 'JUST CHATTING';
 
     return(
         <div>
             <ProjectJumbotron jumbotronTitle='Just Chatting'/>
-            <ProjectContent contentTitle='Just Chatting' contentDescription='PUT DESCRIPTION HERE'/>
-            <GridWrapper imageWide={imageLink} image1={imageLink} image2={imageLink}/>
+            <ProjectContent contentTitle='Just Chatting' contentDescription={description}/>
+            <GridWrapper imageWide={JustChatting} image1={JustChattingLeft} image2={JustChattingRight}/>
             <Footer/>
         </div>
     );
