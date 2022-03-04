@@ -236,6 +236,23 @@ a {
 }
 
 /* Project Grid Css */
+.grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.grid-container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
 .grid-img {
 	max-width: 100%;
 	height: auto;

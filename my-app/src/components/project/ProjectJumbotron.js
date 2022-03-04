@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import Close from '../../images/close.svg';
 
-function ProjectJumbotron() {
+function ProjectJumbotron(props) {
 
     const [modalIsOpen, setModalIsOpen] = useState(false)
 
@@ -34,7 +34,7 @@ function ProjectJumbotron() {
                     <Link to='/'><h2>Baylor Hinshaw</h2></Link>
                 </div>
                 <div className='column-3 project-title'>
-                    <h1><span style={{ fontWeight: 400 }}>Project</span> One</h1>
+                    <h1 style={{ alignSelf: 'center' }}>{props.jumbotronTitle}</h1>
                 </div>                
                 <div className='column-3'>
                     <div className='project-jumbotron-row'>
@@ -65,10 +65,10 @@ function ProjectJumbotron() {
                             <Link to='/'><strong>Home</strong></Link>
                             <ul>
                                 <li>
-                                    <Link to='/project1'>Project One</Link>
+                                    <Link to='/project1'>Ani-Time</Link>
                                 </li>
                                 <li>
-                                    <Link to='/project2'>Project Two</Link>
+                                    <Link to='/project2'>Just Chatting</Link>
                                 </li>
                             </ul>
                             <a className='directory-email' href='mailto:baylorhinshaw21@gmail.com'>baylorhinshaw21@gmail.com</a>
