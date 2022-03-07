@@ -10,7 +10,7 @@ import Footer from '../components/common/Footer';
 
 const Project2 = () => {
 
-    const description = 'JUST CHATTING';
+    const description = 'Application is creating social media API, where users can add, edit, and delete, users, friends, thoughts, and reactions. Created using Express and Mongoose and uses Insomnia to test CRUD. This is meant to help improve cleaning and managing unstructred data. Would eventually like to make this a full MERN stack application with a working client.';
 
     return(
         <div>
