@@ -1,5 +1,6 @@
 import '../components/Main.css';
 import React from "react";
+import Helmet from "react-helmet";
 import ProjectJumbotron from '../components/project/ProjectJumbotron';
 import ProjectContent from '../components/project/ProjectContent';
 import GridWrapper from '../components/project/GridWrapper';
@@ -15,6 +16,10 @@ const Project1 = () => {
 
     return(
         <div>
+            <Helmet>
+                <title>Baylor Hinshaw - Ani-Time</title>
+                <meta name="description" content="Ani-Time project of Baylor Hinshaw" />
+            </Helmet>
             <ProjectJumbotron jumbotronTitle='Ani-Time'/>
             <ProjectContent contentTitle='Ani-Time' contentDescription={description}/>
             <GridWrapper imageWide={AnitimeHome} image1={AnitimeCard} image2={AnitimeSaved}/>
