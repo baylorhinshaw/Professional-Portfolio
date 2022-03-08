@@ -4,9 +4,9 @@ import Helmet from "react-helmet";
 import ProjectJumbotron from '../components/project/ProjectJumbotron';
 import ProjectContent from '../components/project/ProjectContent';
 import GridWrapper from '../components/project/GridWrapper';
-import JustChatting from '../images/justchatting.PNG';
-import JustChattingLeft from '../images/justchattingleft.PNG';
-import JustChattingRight from '../images/justchattingright.PNG';
+import JustChatting from '../images/justchatting.png';
+import JustChattingLeft from '../images/justchattingleft.png';
+import JustChattingRight from '../images/justchattingright.png';
 import Footer from '../components/common/Footer';
 
 const Project2 = () => {

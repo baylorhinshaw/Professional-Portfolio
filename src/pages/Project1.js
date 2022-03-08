@@ -4,9 +4,9 @@ import Helmet from "react-helmet";
 import ProjectJumbotron from '../components/project/ProjectJumbotron';
 import ProjectContent from '../components/project/ProjectContent';
 import GridWrapper from '../components/project/GridWrapper';
-import AnitimeHome from '../images/anitimehome.PNG';
-import AnitimeCard from '../images/anitimecard.PNG';
-import AnitimeSaved from '../images/anitimesaved.PNG';
+import AnitimeHome from '../images/anitimehome.png';
+import AnitimeCard from '../images/anitimecard.png';
+import AnitimeSaved from '../images/anitimesaved.png';
 import Footer from '../components/common/Footer';
 
 
