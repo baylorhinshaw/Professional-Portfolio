@@ -15,6 +15,7 @@ const Project1 = () => {
     const description = 'This collaborative application was created with the purpose of being able to see and save seasonal anime. Using tools such as MongoDB, Express, React, Node.js and GraphQL. The application pulls from an external API using axios and uses the mapped data to display the different animes. Then uses Ant-Design component library to prop and create different pages, and react-router-dom for the different routes. Added jwt-decode for authentication for users when signing in or making account. Would like to add more funtionality towards the future.';
 
     return(
+
         <div>
             <Helmet>
                 <title>Baylor Hinshaw - Ani-Time</title>
@@ -29,3 +30,4 @@ const Project1 = () => {
 };
 
 export default Project1
+
