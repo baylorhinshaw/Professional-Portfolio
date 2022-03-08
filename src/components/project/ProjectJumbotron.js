@@ -38,10 +38,10 @@ function ProjectJumbotron(props) {
                 </div>                
                 <div className='column-3'>
                     <div className='project-jumbotron-row'>
-                        <a href='https://www.linkedin.com/in/baylorhinshaw/' target='_blank'><img className='HeaderIcon' src={Linkedin}></img></a>
-                        <a href='https://github.com/baylorhinshaw' target='_blank'><img className='HeaderIcon' src={Github}></img></a>
-                        <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' src={Email}></img></a>
-                        <a onClick={() => setModalIsOpen(true)}><img className='HeaderIcon menu-btn' src={MenuImage}></img></a>
+                        <a href='https://www.linkedin.com/in/baylorhinshaw/' target='_blank' rel="noreferrer"><img className='HeaderIcon' alt='linkedin icon' src={Linkedin}></img></a>
+                        <a href='https://github.com/baylorhinshaw' target='_blank' rel="noreferrer"><img className='HeaderIcon' alt='github icon' src={Github}></img></a>
+                        <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' alt='email icon' src={Email}></img></a>
+                        <a onClick={() => setModalIsOpen(true)}><img className='HeaderIcon menu-btn' alt='menu icon' src={MenuImage}></img></a>
                     </div>
                 </div>
             </div>
@@ -53,10 +53,10 @@ function ProjectJumbotron(props) {
                         </div>
                         <div className='column-2'>
                             <div className='project-jumbotron-row'>
-                                <a href='https://www.linkedin.com/in/baylorhinshaw/' target='_blank'><img className='HeaderIcon' src={Linkedin}></img></a>
-                                <a href='https://github.com/baylorhinshaw' target='_blank'><img className='HeaderIcon' src={Github}></img></a>
-                                <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' src={Email}></img></a>
-                                <a onClick={() => setModalIsOpen(false)}><img className='HeaderIcon menu-btn' src={Close}></img></a>
+                                <a href='https://www.linkedin.com/in/baylorhinshaw/' target='_blank' rel="noreferrer"><img className='HeaderIcon' alt='linkedin icon' src={Linkedin}></img></a>
+                                <a href='https://github.com/baylorhinshaw' target='_blank' rel="noreferrer"><img className='HeaderIcon' alt='github icon' src={Github}></img></a>
+                                <a href='mailto:baylorhinshaw21@gmail.com'><img className='HeaderIcon' alt='email icon' src={Email}></img></a>
+                                <a onClick={() => setModalIsOpen(false)}><img className='HeaderIcon menu-btn' alt='menu close icon' src={Close}></img></a>
                             </div>
                         </div>
                     </div>

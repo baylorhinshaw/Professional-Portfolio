@@ -19,9 +19,9 @@ function Footer() {
                     </div> 
                     <div className='column-3'>
                         <div className='project-jumbotron-row'>
-                            <a href='https://www.linkedin.com/in/baylorhinshaw/' target='_blank'><img className='FooterIcon' src={Linkedin}></img></a>
-                            <a href='https://github.com/baylorhinshaw' target='_blank'><img className='FooterIcon' src={Github}></img></a>
-                            <a href='mailto:baylorhinshaw21@gmail.com'><img className='FooterIcon' src={Email} style={{ paddingRight: '0px'}}></img></a>            
+                            <a href='https://www.linkedin.com/in/baylorhinshaw/' target='_blank'  rel="noreferrer"><img className='FooterIcon' alt='linkedin icon' src={Linkedin}></img></a>
+                            <a href='https://github.com/baylorhinshaw' target='_blank'  rel="noreferrer"><img className='FooterIcon' alt='github icon' src={Github}></img></a>
+                            <a href='mailto:baylorhinshaw21@gmail.com'><img className='FooterIcon' alt='email icon' src={Email} style={{ paddingRight: '0px'}}></img></a>            
                         </div>
                     </div>  
             </div>
